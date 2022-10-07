@@ -7,6 +7,7 @@ import {
   AiOutlineLink,
   AiOutlineFacebook,
   AiOutlineMail,
+  AiOutlineLinkedin,
 } from 'react-icons/ai'
 import TextLoop from "react-text-loop";
 import Typist from "react-typist";
@@ -52,31 +53,37 @@ function App() {
           </div>
           <div className="mt-16">
             <a className="btn_action bg_content" href="https://www.instagram.com/irvannih_/">
-              <AiOutlineInstagram size={20} />
+              <AiOutlineInstagram size={25} />
               <span>Instagram</span>
             </a>
           </div>
           <div className="mt-16">
             <a className="btn_action bg_content" href="https://github.com/irvan99x">
-              <AiOutlineGithub size={20} />
+              <AiOutlineGithub size={25} />
               <span>Github</span>
             </a>
           </div>
           <div className="mt-16">
+            <a className="btn_action bg_content" href="https://www.linkedin.com/in/m-irvann/">
+              <AiOutlineLinkedin size={25} />
+              <span>LinkedIn</span>
+            </a>
+          </div>
+          <div className="mt-16">
             <a className="btn_action bg_content" href="https://www.heyirvan.site/">
-              <AiOutlineLink size={20} />
+              <AiOutlineLink size={25} />
               <span>Website</span>
             </a>
           </div>
           <div className="mt-16">
             <a className="btn_action bg_content" href="https://www.facebook.com/irvannih0/">
-              <AiOutlineFacebook size={20} />
+              <AiOutlineFacebook size={25} />
               <span>Facebook</span>
             </a>
           </div>
           <div className="mt-16">
             <a className="btn_action bg_content" href="mailto:mirvan3107@gmail.com?subject=Hello&body=Hello Irvan">
-              <AiOutlineMail size={20} />
+              <AiOutlineMail size={25} />
               <span>Email</span>
             </a>
           </div>

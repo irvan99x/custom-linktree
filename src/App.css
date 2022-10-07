@@ -132,7 +132,7 @@ body {
 }
 .card.dark .dark-mode {
   transition: 1s ease-in;
-  transform: scale(54);
+  transform: scale(58);
 }
 
 .footer {
