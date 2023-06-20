@@ -31,7 +31,7 @@ function App() {
           <div className="profile text-center ">
             <img src={profileImg} className="avatar" alt="avatar" />
             <div className="bg_content rd_12 p_8">
-              <h1>@irvannih_</h1>
+              {/* <h1>@irvaaan__</h1> */}
               <p className='mt-16'>Muhammad Irvan</p>
               <Typist cursor={config_cursor}>
                 Don't worry about failure, but worry about the chance that you miss. 🙈
@@ -52,7 +52,7 @@ function App() {
             </div>
           </div>
           <div className="mt-16">
-            <a className="btn_action bg_content" href="https://www.instagram.com/irvannih_/">
+            <a className="btn_action bg_content" href="https://www.instagram.com/irvaaan__/">
               <AiOutlineInstagram size={25} />
               <span>Instagram</span>
             </a>
@@ -70,7 +70,7 @@ function App() {
             </a>
           </div>
           <div className="mt-16">
-            <a className="btn_action bg_content" href="https://www.heyirvan.site/">
+            <a className="btn_action bg_content" href="https://irvan.website/">
               <AiOutlineLink size={25} />
               <span>Website</span>
             </a>
